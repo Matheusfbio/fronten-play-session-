@@ -42,7 +42,7 @@ Este projeto consiste na criação de um aplicativo React utilizando Vite, com o
 
 1. Clone este repositório:
 ```
-git clone https://github.com/Matheusfbio/full-stack-web-challenge.git
+git clone https://github.com/Matheusfbio/rontend-play-session.git
 ```
 2. Navegue para a pasta do projeto
 ```
