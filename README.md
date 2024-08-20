@@ -1,61 +1,62 @@
-# Projeto Front-End
+# Front-End Project
 
-### Objetivo
+### Objective
 
-Este projeto consiste na criação de um aplicativo React utilizando Vite, com o objetivo de desenvolver uma interface que permita a criação e visualização de sessões de jogo. O aplicativo interage com um back-end para persistir e recuperar os dados das sessões.
+This project consists of creating a React application using Vite, with the aim of developing an interface that allows the creation and visualization of game sessions. The application interacts with a backend to persist and retrieve session data.
 
-### Funcionalidades
+### Features
 
-- **Formulário para criar nova sessão de jogo**: 
-  - O formulário coleta os seguintes detalhes da sessão de jogo: `hostname`, `players`, `map` e `mode`.
-  - Ao enviar, os dados são enviados para a API de back-end por meio de uma solicitação POST para criar uma nova sessão de jogo.
+- **Form to create new game session**:
+ - The form collects the following game session details: `hostname`, `players`, `map` and `mode`.
+ - Upon submission, data is sent to the backend API via a POST request to create a new game session.
 
-- **Visualização de lista das sessões de jogo**: 
-  - O aplicativo busca e exibe uma lista de sessões de jogo a partir da API de back-end.
-  - Os detalhes exibidos incluem: `hostname`, `players`, `map` e `mode`.
+- **List view of game sessions**:
+ - The application fetches and displays a list of game sessions from the backend API.
+ - Details displayed include: `hostname`, `players`, `map` and `mode`.
 
-### Requisitos e Implementação
+### Requirements and Implementation
 
-1. **Formulário**:
-   - [x] Coleta dos detalhes da sessão de jogo: `hostname`, `players`, `map` e `mode`.
-   - [x] Envio de solicitação POST para a API de back-end para criar uma sessão de jogo. 
+1. **Form**:
+ - [x] Collection of game session details: `hostname`, `players`, `map` and `mode`.
+ - [x] Sending POST request to backend API to create a game session.
 
-2. **Visualização de lista**:
-   - [x] Busca e exibição da lista de sessões de jogo a partir da API de back-end.
-   - [x] Exibição dos detalhes: `hostname`, `players`, `map` e `mode`.
+2. **List View**:
+ - [x] Search and display the list of game sessions from the backend API.
+ - [x] Details display: `hostname`, `players`, `map` and `mode`.
 
-3. **Experiência do usuário (UX/UI)**:
-   - [x] Implementação de um design responsivo e fácil de usar. 
-   - [x] Utilização de uma estrutura CSS, neste caso, Tailwind CSS. 
+3. **User Experience (UX/UI)**:
+ - [x] Implementation of a responsive and easy-to-use design.
+ - [x] Use of a CSS structure, in this case, Tailwind CSS.
 
-4. **Qualidade do código**:
-   - [x] Garantia de alta legibilidade e facilidade de manutenção do código.
-   - [x] Utilização de práticas modernas de desenvolvimento React, como hooks e componentes funcionais.
+4. **Code Quality**:
+ - [x] Guarantee of high readability and ease of code maintenance.
+ - [x] Use of modern React development practices, such as hooks and functional components.
 
-### Tecnologias Utilizadas
+### Technologies Used
 
-- **React** com **Vite** para o desenvolvimento da interface do usuário.
-- **Tailwind CSS** para estilização e design responsivo.
-- **Axios** para comunicação com o back-end.
+- **React** with **Vite** for UI development.
+- **Tailwind CSS** for styling and responsive design.
+- **Axios** for communication with the backend.
 
-### Como Executar
+### How to Execute
 
-1. Clone este repositório:
+1. Clone this repository:
 ```
-git clone https://github.com/Matheusfbio/rontend-play-session.git
+git clone https://github.com/Matheusfbio/full-stack-web-challenge.git
 ```
-2. Navegue para a pasta do projeto
+2. Navigate to the project folder
 ```
 cd full-stack-web-challenge
 ```
-3. Instale as dependencias
+3. Install dependencies
 ```
 npm i
 ```
-4. defina o .env para fazer integração com o back-end localmente para afins de teste
+4. define the .env to integrate with the backend locally for testing purposes
 ```
 VITE_API_ENDPOINT="http://localhost:3000/sessions"
 ```
-5. execute o projeto
+5. execute the project
 ```
 npm run dev
+```
